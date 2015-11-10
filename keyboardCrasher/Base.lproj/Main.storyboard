@@ -57,7 +57,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-1F-F6K">
                                 <rect key="frame" x="30" y="252" width="265" height="338"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="To UIWebView &gt;&gt;"/>
+                                <state key="normal" title="UIWebView&gt;"/>
                                 <connections>
                                     <segue destination="TWD-u9-ZP1" kind="show" id="LQM-RV-JcB"/>
                                 </connections>
@@ -65,7 +65,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91V-Rp-eB1">
                                 <rect key="frame" x="305" y="252" width="265" height="338"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="To WKWebView &gt;&gt;"/>
+                                <state key="normal" title="WKWebView&gt;"/>
                                 <connections>
                                     <segue destination="Fd9-xg-M7I" kind="show" id="Sh0-0x-PrK"/>
                                 </connections>
