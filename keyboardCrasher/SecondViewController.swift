@@ -10,12 +10,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    var urlString = ""
+    
     @IBOutlet private weak var webView: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let urlString = "https://www.google.co.jp"
         let request = NSURLRequest(URL: NSURL(string: urlString)!)
         webView.loadRequest(request)
     }

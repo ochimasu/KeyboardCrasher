@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EAF62651BF212450027CCBD /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF62641BF212450027CCBD /* SelectViewController.swift */; };
 		7EC3C30E1BF1E24700DF8C76 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C30D1BF1E24700DF8C76 /* WKWebViewController.swift */; };
 		7EC3C3101BF1E8CA00DF8C76 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC3C30F1BF1E8CA00DF8C76 /* WebKit.framework */; };
 		7EE1B52A1BF0651000442581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1B5291BF0651000442581 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EAF62641BF212450027CCBD /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 		7EC3C30D1BF1E24700DF8C76 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 		7EC3C30F1BF1E8CA00DF8C76 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7EE1B5261BF0651000442581 /* keyboardCrasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboardCrasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				7EE1B5291BF0651000442581 /* AppDelegate.swift */,
+				7EAF62641BF212450027CCBD /* SelectViewController.swift */,
 				7EE1B53E1BF0660D00442581 /* SecondViewController.swift */,
 				7EC3C30D1BF1E24700DF8C76 /* WKWebViewController.swift */,
 				7EE1B52D1BF0651000442581 /* Main.storyboard */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAF62651BF212450027CCBD /* SelectViewController.swift in Sources */,
 				7EE1B53F1BF0660D00442581 /* SecondViewController.swift in Sources */,
 				7EE1B5321BF0651000442581 /* keyboardCrasher.xcdatamodeld in Sources */,
 				7EE1B52A1BF0651000442581 /* AppDelegate.swift in Sources */,
