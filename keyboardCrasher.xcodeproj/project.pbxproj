@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EC3C30E1BF1E24700DF8C76 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C30D1BF1E24700DF8C76 /* WKWebViewController.swift */; };
 		7EE1B52A1BF0651000442581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1B5291BF0651000442581 /* AppDelegate.swift */; };
 		7EE1B52F1BF0651000442581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE1B52D1BF0651000442581 /* Main.storyboard */; };
 		7EE1B5321BF0651000442581 /* keyboardCrasher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1B5301BF0651000442581 /* keyboardCrasher.xcdatamodeld */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EC3C30D1BF1E24700DF8C76 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 		7EE1B5261BF0651000442581 /* keyboardCrasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboardCrasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE1B5291BF0651000442581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE1B52E1BF0651000442581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				7EE1B5291BF0651000442581 /* AppDelegate.swift */,
 				7EE1B53E1BF0660D00442581 /* SecondViewController.swift */,
+				7EC3C30D1BF1E24700DF8C76 /* WKWebViewController.swift */,
 				7EE1B52D1BF0651000442581 /* Main.storyboard */,
 				7EE1B5331BF0651000442581 /* Assets.xcassets */,
 				7EE1B5351BF0651000442581 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				7EE1B53F1BF0660D00442581 /* SecondViewController.swift in Sources */,
 				7EE1B5321BF0651000442581 /* keyboardCrasher.xcdatamodeld in Sources */,
 				7EE1B52A1BF0651000442581 /* AppDelegate.swift in Sources */,
+				7EC3C30E1BF1E24700DF8C76 /* WKWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
