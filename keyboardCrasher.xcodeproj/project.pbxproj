@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7EC3C30E1BF1E24700DF8C76 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C30D1BF1E24700DF8C76 /* WKWebViewController.swift */; };
+		7EC3C3101BF1E8CA00DF8C76 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC3C30F1BF1E8CA00DF8C76 /* WebKit.framework */; };
 		7EE1B52A1BF0651000442581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1B5291BF0651000442581 /* AppDelegate.swift */; };
 		7EE1B52F1BF0651000442581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE1B52D1BF0651000442581 /* Main.storyboard */; };
 		7EE1B5321BF0651000442581 /* keyboardCrasher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1B5301BF0651000442581 /* keyboardCrasher.xcdatamodeld */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		7EC3C30D1BF1E24700DF8C76 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		7EC3C30F1BF1E8CA00DF8C76 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7EE1B5261BF0651000442581 /* keyboardCrasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboardCrasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE1B5291BF0651000442581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE1B52E1BF0651000442581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC3C3101BF1E8CA00DF8C76 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		7EE1B51D1BF0651000442581 = {
 			isa = PBXGroup;
 			children = (
+				7EC3C30F1BF1E8CA00DF8C76 /* WebKit.framework */,
 				7EE1B5281BF0651000442581 /* keyboardCrasher */,
 				7EE1B5271BF0651000442581 /* Products */,
 			);
