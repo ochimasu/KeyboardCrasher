@@ -11,6 +11,8 @@ import WebKit
 
 class WKWebViewController: UIViewController {
 
+    var urlString = ""
+    
     @IBOutlet private weak var webViewBaseView: UIView!
     private weak var webView: WKWebView!
     
@@ -27,7 +29,6 @@ class WKWebViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let urlString = "https://www.google.co.jp"
         let request = NSURLRequest(URL: NSURL(string: urlString)!)
         webView.loadRequest(request)
     }
